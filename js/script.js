@@ -45,7 +45,7 @@ button.addEventListener('click', function() {
     // Creo un loop per i numeri da 1 a 100 e dentro creo gli square che diventeranno blu al click mostrando il numero di casella in console.log
     for (let i = 1; i <= 100; i++) {
 
-        const newDivSquare = getNewElement('div', i, 'square', 'd-flex', 'justify-content-center', 'align-items-center');
+        const newDivSquare = getNewElement('div', i, 'square',);
 
         newDivSquare.addEventListener('click', function() {
             newDivSquare.classList.toggle('clicked');
