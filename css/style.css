@@ -25,3 +25,10 @@ div.square {
 div.square.clicked {
     background-color: blue;
 }
+
+div.button {
+    border: 1px solid black;
+    background-color: #e9e9ed;
+    border-radius: 10px;
+}
+
