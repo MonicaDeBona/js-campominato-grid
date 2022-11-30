@@ -1,5 +1,14 @@
+main {
+    background-color: #7fffd4;
+}
+
+div.parent {
+    height: 600px;
+    width: 600px;
+}
+
 div.square {
-    height: 500px;
-    width: 500px;
-    background-color: blue;
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
 }
