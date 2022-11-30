@@ -6,13 +6,12 @@ newDivContainer.classList.add('parent','m-auto', 'd-flex', 'flex-wrap');
 newMainElement.append(newDivContainer);
 
 for (let i = 1; i <= 100; i++) {
-    console.log(i);
     const newDivSquare = document.createElement('div');
     newDivSquare.classList.add('square');
 
     newDivSquare.addEventListener('click', function() {
-        alert('Click!');
         newDivSquare.classList.add('clicked');
+        console.log(i);
     });
 
     newDivContainer.append(newDivSquare);
