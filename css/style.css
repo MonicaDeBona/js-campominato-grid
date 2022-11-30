@@ -1,5 +1,14 @@
+header {
+    height: 10vh;
+}
+
 main {
     background-color: #7fffd4;
+    height: 80vh;
+}
+
+footer {
+    height: 5vh;
 }
 
 div.parent {

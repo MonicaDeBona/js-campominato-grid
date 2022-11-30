@@ -7,9 +7,9 @@ newMainElement.append(newDivContainer);
 
 for (let i = 1; i <= 100; i++) {
     console.log(i);
-    const newDivSquares = document.createElement('div');
-    newDivSquares.classList.add('square')
-    newDivContainer.append(newDivSquares);
+    const newDivSquare = document.createElement('div');
+    newDivSquare.classList.add('square')
+    newDivContainer.append(newDivSquare);
 }
 
 
