@@ -10,7 +10,7 @@ for (let i = 1; i <= 100; i++) {
     newDivSquare.classList.add('square');
 
     newDivSquare.addEventListener('click', function() {
-        newDivSquare.classList.add('clicked');
+        newDivSquare.classList.toggle('clicked');
         console.log(i);
     });
 
