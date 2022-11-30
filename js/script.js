@@ -1,11 +1,14 @@
 const button = document.querySelector('div.button a.btn');
 console.log(button);
 
+
 button.addEventListener('click', function() {
+
+    newMainElement.innerHTML = ('')
 
     // Creo dentro al main il div contenitore degli square
     const newMainElement = document.querySelector('main');
-    newMainElement.classList.add('d-flex',)
+    newMainElement.classList.add('d-flex');
     const newDivContainer = document.createElement('div');
     newDivContainer.classList.add('parent','m-auto', 'd-flex', 'flex-wrap');
     newMainElement.append(newDivContainer);
