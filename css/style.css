@@ -21,3 +21,7 @@ div.square {
     width: calc(100% / 10);
     height: calc(100% / 10);
 }
+
+div.square.clicked {
+    background-color: blue;
+}
