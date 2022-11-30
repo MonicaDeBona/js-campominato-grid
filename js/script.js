@@ -1,4 +1,6 @@
-const button = document.querySelector('btn');
+const button = document.querySelector('div.button a.btn');
+console.log(button);
+
 button.addEventListener('click', function() {
 
     // Creo dentro al main il div contenitore degli square
